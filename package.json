@@ -20,7 +20,29 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
-  "keywords": ["react-native screen keyboard", "react", "react-native", "virtual keyboard for react-native"],
+  "homepage": "https://github.com/usmangurowa/RNScreenKeyboard#readme",
+  "bugs": {
+    "url": "https://github.com/usmangurowa/RNScreenKeyboard/issues",
+    "email": "usmanhassangu@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/usmangurowa/RNScreenKeyboard.git"
+  },
+  "keywords": [
+    "react-native screen keyboard",
+    "react",
+    "react-native",
+    "virtual keyboard for react-native"
+  ],
   "author": "Usman Hassan",
+  "contributors": [
+    {
+      "name": "Usman Hassan",
+      "email": "usmanhassangu@gmail.com",
+      "url": "https://github.com/usmangurowa",
+      "twitter": "https://twitter.com/usmangurowa"
+    }
+  ],
   "license": "ISC"
 }
