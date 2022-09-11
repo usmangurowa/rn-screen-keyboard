@@ -3,7 +3,6 @@
 # Demo
 <img src="https://github.com/usmangurowa/RNScreenKeyboard/blob/main/.github/demo.gif" height="500" />
 
-![](https://github.com/usmangurowa/RNScreenKeyboard/blob/main/.github/demo.gif)
 
 React Native Screen Keyboard is a virutal screen keyboard implementation for React Native. It is fully customizable, the last row of the keys can be completely customized or changed to fit perfectly with your projects.
 
@@ -65,6 +64,9 @@ const styles = StyleSheet.create({
 });
 
 ```
+
+
+<img src="https://github.com/usmangurowa/RNScreenKeyboard/blob/main/.github/example.jpg" height="500" />
 
 
 # Props
