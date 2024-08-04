@@ -1,6 +1,6 @@
 {
-  "name": "rnscreenkeyboard",
-  "version": "1.0.5",
+  "name": "rn-screen-keyboard",
+  "version": "0.0.0",
   "description": "React-Native Screen keyboard implementation",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,24 +8,24 @@
     "dist/"
   ],
   "devDependencies": {
-    "@types/react": "^18.0.18",
-    "@types/react-native": "^0.69.8",
-    "typescript": "^4.8.2",
-    "react": "^18.2.0",
-    "react-native": "^0.70.0"
+    "@types/react": "^18.3.3",
+    "@types/react-native": "^0.73.0",
+    "react": "^18.3.1",
+    "react-native": "^0.74.4",
+    "typescript": "^5.5.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
-  "homepage": "https://github.com/usmangurowa/RNScreenKeyboard#readme",
+  "homepage": "https://github.com/usmangurowa/rn-screen-keyboard#readme",
   "bugs": {
-    "url": "https://github.com/usmangurowa/RNScreenKeyboard/issues",
+    "url": "https://github.com/usmangurowa/rn-screen-keyboard/issues",
     "email": "usmanhassangu@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/usmangurowa/RNScreenKeyboard.git"
+    "url": "https://github.com/usmangurowa/rn-screen-keyboard.git"
   },
   "keywords": [
     "react-native screen keyboard",
@@ -42,5 +42,8 @@
       "twitter": "https://twitter.com/usmangurowa"
     }
   ],
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "rn-screen-keyboard": "^1.0.0"
+  }
 }

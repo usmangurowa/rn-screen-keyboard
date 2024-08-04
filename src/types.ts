@@ -4,31 +4,35 @@ import { TextStyle, ViewStyle } from "react-native";
 type GlobalType = {
   Center?: React.ReactNode;
   cellStyle?: ViewStyle;
-  lastRowStyle?: ViewStyle;
+  footerStyle?: ViewStyle;
   Left?: React.ReactNode;
   textStyle?: TextStyle;
   rowStyle?: ViewStyle;
   Right?: React.ReactNode;
   backspaceTint?: string;
   onKeyPress: (key: string) => void;
+  textLength?: number;
+  ripple?: boolean;
+  ripple_color?: string;
 };
 
-export interface RNScreenKeyboardType extends GlobalType {
+export interface ScreenKeyboardProps extends GlobalType {
   value: string | number;
   BackSpaceComponent?: React.ReactNode;
+  Footer?: React.ReactNode;
 }
 
-export interface LastRowType extends GlobalType {
+export interface FooterProps extends GlobalType {
   onBackSpace?(): void;
   onLongBackSpace?(): void;
   BackSpaceComponent?: React.ReactNode;
 }
 
-export interface RowType extends GlobalType {
+export interface RowProps extends GlobalType {
   chars: string[] | number[];
 }
 
-export interface CellType extends GlobalType {
+export interface CellProps extends GlobalType {
   char: string | number | React.ReactNode;
-  onPress?(): void | any;
+  onPress?(): void;
 }

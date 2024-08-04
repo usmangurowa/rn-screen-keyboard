@@ -1,5 +1,5 @@
-import RNScreenKeyboard from "./RNScreenKeyboard";
+import RNScreenKeyboard from "./rn-screen-keyboard";
 
-export { CellType, LastRowType, RNScreenKeyboardType, RowType } from "./types";
+export { CellProps, FooterProps, ScreenKeyboardProps, RowProps } from "./types";
 
 export default RNScreenKeyboard;
