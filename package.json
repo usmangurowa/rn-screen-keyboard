@@ -1,6 +1,6 @@
 {
   "name": "rn-screen-keyboard",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "React-Native Screen keyboard implementation",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
